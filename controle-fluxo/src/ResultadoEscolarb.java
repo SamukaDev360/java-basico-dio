@@ -1,15 +1,15 @@
 public class ResultadoEscolarb {
     public static void main(String[] args) {
         // declarando variavel nota
-        int nota = 8;
+        int nota = 10;
 
         // exemplo de estrutura condicional encadeada com mais de duas possibilidade em nosso programa - Utilização do else-if
-        if (nota >= 8) {
+        if (nota >= 8)  { // retorna true
             System.out.println("Aprovado!");
-        } else if (nota >= 5 && nota < 7) {
-            System.out.println("Recuperação");
+        } else if (nota >= 5 && nota < 7) { // retorna true ou false
+            System.out.println("Recuperação!");
         } else {
-            System.out.println("Reprovado");
+            System.out.println("Reprovado!");
         }
 
 
