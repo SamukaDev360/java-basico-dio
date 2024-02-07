@@ -3,7 +3,7 @@ public class ResultadoEscolar {
         // declarando variavel nota
         int nota = 8;
 
-        // condicional composta onde caso temos mais de uma jornada em nosso programa caso a nota seja maior ou igual a 7.
+        // condicional composta onde caso temos mais de uma jornada em nosso programa utilizando o else
         if (nota >= 7) {
             System.out.println("Aprovado");
         } else {
