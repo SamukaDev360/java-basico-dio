@@ -1,6 +1,6 @@
 public class ExemploForEach {
     public static void main(String[] args) {
-        String alunos [] = {"Samuel", "Jonas", "Julia", "Marcos"};
+        String alunos[] = {"Samuel", "Jonas", "Julia", "Marcos"};
 
         // forma abreviada //
         for (String aluno : alunos) {
